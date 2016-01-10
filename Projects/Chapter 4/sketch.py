@@ -28,9 +28,9 @@ except IOError as ioErr:
 
 try:
         with open('man_speech.txt','w') as man_file:
-                bhargav_mac_nester.print_lol(man, fh = man_file)
+                bhargav_mac_nester.print_lol(man, fh=man_file)
         with open('other_man_speech.txt','w') as other_man_file:
-                bhargav_mac_nester.print_lol(other, fh = other_man_file)
+                bhargav_mac_nester.print_lol(other, fh=other_man_file)
 
 except IOError as err:
         print('File read/write error. \n' + str(err))
